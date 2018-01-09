@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Jasa Pembuatan Aplikasi Android</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="assets/css/metro.min.css" rel="stylesheet">
+        <link href="assets/css/metro-icons.min.css" rel="stylesheet">        
+        <link href="assets/css/onepage-scroll.css" rel="stylesheet">
+        <link href="assets/css/style.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <div id="main">
+        <section class="page-one">
+            <div class="container">
+            <div class="grid">    
+                <div class="row cells1">
+                    <div class="cell">
+                        <div id="posisi" class="align-center">
+                            <h2>Jasa Pembuatan Aplikasi Android</h2>
+                            <button id="bawah" class="button">Disini untuk melanjutkan</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section class="page-two">
+            <div class="container">
+            <div class="grid">  
+                <div class="row cells1">
+                    <div class="cell">
+                        <div class="tile-big tile-wide-y bg-white" data-role="tile">
+                        <div class="tile-content">
+                            <div class="panel" style="height: 100%">
+                                <div class="heading bg-darkRed fg-white"><span class="title text-light">Product Images</span></div>
+                                <div class="content fg-dark clear-float" style="height: 100%">
+                                    <div class="carousel auto stop" id="carousel" data-controls="false" data-markers="false" data-effect="fade" data-height="270">
+                                        <div class="slide"><img src="assets/img/a.jpeg" alt=""></div>
+                                        <div class="slide"><img src="assets/img/b.jpeg" alt=""></div>
+                                        <div class="slide"><img src="assets/img/c.jpeg" alt=""></div>
+                                        <div class="slide"><img src="assets/img/d.jpeg" alt=""></div>
+                                        <div class="slide"><img src="assets/img/e.jpeg" alt=""></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+
+                        <div class="tile tile-wide-x bg-lightBlue fg-white" data-role="tile">
+                        <div class="tile-content iconic">
+                            <span class="icon mif-gamepad"></span>
+                        </div>
+                        </div>
+                        <div class="tile bg-orange fg-white" data-role="tile">
+                            <div class="tile-content iconic">
+                                <span class="icon mif-music"></span>
+                            </div>
+                        </div>
+                        <div class="tile bg-teal fg-white" data-role="tile">
+                            <div class="tile-content iconic">
+                                <span class="icon mif-security"></span>
+                            </div>
+                        </div>
+                        <div class="tile tile-wide-x bg-green fg-white" data-role="tile">
+                            <div class="tile-content iconic">
+                                <span class="icon mif-tools"></span>
+                            </div>
+                        </div>
+
+                        <div class="tile-big tile-wide bg-white" data-role="tile" id="satu">
+                        <div class="tile-content">
+                            <div class="panel" style="height: 100%;">
+                                <div class="heading bg-pink fg-white"><span class="title text-light">Mengenai Perusahaan Kami</span></div>
+                                <div class="content fg-dark clear-float" style="height: 100%;">
+                                    <h4 class="judul">Jasa Pembuatan Aplikasi Android:</h4>
+                                    <p class="tulisan">
+                                        Perusahaan kami bergerak dibidang jasa pembuatan aplikasi android dan Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        Doloribus atque id cupiditate, reiciendis obcaecati nostrum aliquid tempora accusantium ut dolorem officiis assumenda error. 
+                                        Aliquam doloremque deserunt error quis earum ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        Quibusdam animi similique alias qui praesentium deserunt dolorum nam repellat nostrum mollitia architecto eveniet quod iure ratione, magni doloremque inventore est at.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        </div>
+    
+        <script src="assets/js/jquery-3.2.0.min.js"></script>
+        <script src="assets/js/jquery.onepage-scroll.js"></script>                    
+        <script src="assets/js/metro.min.js"></script>    
+        <script>
+            $(function(){
+                $("#carousel").carousel();
+            });
+
+            $(function(){
+                $("#countdown").countdown();
+            });
+
+            $("#main").onepage_scroll({
+                sectionContainer: "section",
+                easing: "cubic-bezier(0.180, 0.900, 0.410, 1.210)"
+            });
+
+            $("#bawah").click(function() {
+                $("#main").moveDown();
+            });
+        </script>    
+    </body>
+</html>

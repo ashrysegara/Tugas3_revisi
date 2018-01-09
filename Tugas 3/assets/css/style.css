@@ -1,0 +1,42 @@
+h2 {
+	color: #FFF;
+	margin-bottom: 15px;
+}
+
+.page-one {
+	background: linear-gradient(
+		rgb(51, 204, 51),
+		rgb(153, 255, 153)
+	);
+}
+
+.judul {
+	padding: 10px;
+	margin-bottom: 0px;
+}
+
+.tulisan {
+	margin-top: 0px;
+	padding: 0 10px 10px 10px;
+	text-align: justify;
+}
+
+#posisi {
+	margin-top: 250px;
+}
+
+#bawah {
+	width: 400px;
+	height: 50px;
+	background-color: transparent;
+	border: 1px solid #FFF;
+	color: #FFF;
+	font-size: 16px;
+	transition: 1s;
+}
+
+#bawah:hover {
+	background-color: #FFF;
+	border: 1px solid #33cc33 ;
+	color: #33cc33;
+}
